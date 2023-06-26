@@ -6,8 +6,7 @@ const Banner = () => {
   return (
     <div id="home" className="banner">  
       <div className="image-container">
-        {/* <img src="https://raw.githubusercontent.com/gcprod/evolugiimg/main/IMG_1832.png" alt="Banner Image" /> */}
-      </div>
+      <Image src="https://raw.githubusercontent.com/gcprod/evolugiimg/main/IMG_1832.png" alt="Banner Image" width={500} height={300} />      </div>
       <div className="box">
         <div className="text-container">
           <h3>We make your mind</h3>
